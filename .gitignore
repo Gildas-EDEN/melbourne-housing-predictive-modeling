@@ -1,0 +1,30 @@
+# --- Secrets / credentials (never commit) ---
+.env
+*.key
+*.pem
+secrets.*
+.cdsapirc
+
+# --- Data (kept local; document the source in README instead) ---
+data/*
+!data/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.nc
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
